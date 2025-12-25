@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import UserDetail from './pages/UserDetail';
 import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
+import NotFound from './pages/NotFound';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/userDetail/:id" element={<UserDetail />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );

@@ -234,7 +234,7 @@ const Home = () => {
                       <Table.Th>Company</Table.Th>
                       <Table.Th>Email</Table.Th>
                       <Table.Th>Phone</Table.Th>
-                      <Table.Th>Username</Table.Th>
+                      <Table.Th>Address City</Table.Th>
                     </Table.Tr>
                   </Table.Thead>
                   <Table.Tbody>{tableRows}</Table.Tbody>

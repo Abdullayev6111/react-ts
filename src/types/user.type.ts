@@ -1,0 +1,28 @@
+export interface IUser {
+  id: number;
+  name: string;
+  username: string;
+  email: string;
+  phone: string;
+  website?: string;
+  company?: {
+    name: string;
+  };
+  address?: {
+    city: string;
+  };
+}
+
+export interface UserCardProps {
+  user: {
+    id: number;
+    name: string;
+    username: string;
+    email: string;
+    phone?: string;
+    website?: string;
+    company?: {
+      name: string;
+    };
+  };
+}

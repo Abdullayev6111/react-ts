@@ -271,3 +271,7 @@ footer {
 .table-row:hover {
   background: #1f2937 !important;
 }
+
+.mantine-Table-table tbody tr:hover {
+  background-color: #4b5563 !important;
+}
